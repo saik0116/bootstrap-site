@@ -1,0 +1,301 @@
+    /*!
+ * Bootstrap v4.0.0-alpha.5 (https://getbootstrap.com)
+ * Copyright 2011-2016 The Bootstrap Authors
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+
+/*! normalize.css v4.2.0 | MIT License | github.com/necolas/normalize.css */
+
+.btn.btn-outline-success {
+    background-color: #00A3F5;
+    color: #001466;
+}
+
+.form-inline .form-control {
+    width: 100%;
+    vertical-align: middle;
+    margin-top: 5px
+}
+
+.btn.btn-secondary {
+    float: right;
+    margin-top: -37.5px;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.container-fluid {
+    background-color: #E8501D;
+}
+
+.bg-faded {
+    background-color: #E8501D
+}
+
+
+}
+.navbar.navbar-dark.bg-primary {
+    display: none;
+}
+.jumbotron {
+    background-color: #E8A885;
+}
+.nav-link {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-item {
+    border: 2px solid transparent;
+    margin-bottom: 2px;
+}
+.nav-item:hover {
+    margin-bottom: 2px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    transition: 1s;
+}
+a:active,
+a:hover {
+    outline-width: 0;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+.display-3 {
+    margin-top: -30px;
+    padding-bottom: 15px
+}
+.polar {
+    width: 400px;
+    height: 300px;
+    box-shadow: 2px 2px 8px 2px;
+    float: left;
+    margin-bottom: 8px;
+}
+.fiya {
+    width: 300px;
+    height: 200px;
+    box-shadow: 2px 2px 8px 2px;
+    margin-bottom: 8px;
+}
+.fiya:hover {
+    color: grey;
+}
+.polar:hover {
+    color: grey;
+}
+.bird {
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    float: right;
+    border: 2px solid #00A3F5;
+}
+.bird:hover {
+    border: 2px solid white;
+}
+.insta:hover {
+    border: 2px solid white;
+}
+.fb:hover {
+    border: 2px solid white;
+}
+.insta {
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    float: right;
+    margin-right: 5px;
+    border: 2px solid #00A3F5;
+}
+.fb {
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    float: right;
+    margin-right: 5px;
+    border: 2px solid #00A3F5;
+}
+.fiya {
+    height: 200px;
+    width: 300px;
+}
+.lead {
+    width: 400px;
+    float: left
+}
+
+/*****************/
+
+/* Media Quiries */
+
+/*****************/
+@media only screen and (max-width: 460px) {
+    .container {
+        width: 540px;
+        max-width: 100%;
+    }
+    
+    .sec2 {
+        display: none;
+    }
+    
+    .form-inline {
+        width: 100%;
+        float: left;
+    }
+    
+    .form-control {
+        clear: both;
+    }
+    
+    .lead {
+        width: 100%;
+    }
+    
+    .polar {
+        width: 100%;
+    }
+    
+    .btn.btn-secondary {
+        width: 60px;
+    }
+    
+    .bird {
+        display: none;
+    }
+    
+    .insta {
+        display: none;
+    }
+    
+    .fb {
+        display: none;
+    }
+}
+
+}
+
+}
+@media (min-width: 461px)and (max-width: 574) {
+    .bird {
+        display: none;
+    }
+    .insta {
+        display: none;
+    }
+    .fb {
+        display: none;
+    }
+    .display-3 {
+        margin-top: -60px;
+    }
+    .polar {
+        width: 500px;
+    }
+}
+@media (min-width: 575px)and (max-width:800px) {
+    .jumbotron {
+        width: 500px;
+        margin: auto
+    }
+    .nav.navbar-nav {
+        margin-left: 90px;
+    }
+    li {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .fiya {
+        width: 260px;
+    }
+    .display-3 {
+        margin-top: -60px;
+    }
+    .sec1 {
+        float: left;
+    }
+}
+.bird {
+    display: none;
+}
+.insta {
+    display: none;
+}
+.fb {
+    display: none;
+}
+.form-control {
+    clear: both;
+    width: 100%;
+}
+.form-inline .form-control {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+@media (min-width:801px) and (max-width: 1200px) {
+    .polar {
+        width:320px;
+    }
+    .lead {
+        width: 320px;
+    }
+    .fiya {
+        width: 320px;
+        margin-left: 40px;
+    }
+    .lead2 {
+        margin-left: 50%;
+        width: 320px
+    }
+    .display-3 {
+        margin-top: -60px;
+    }
+    li {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .sec1 {
+        float: left;
+        width: 45%;
+    }
+    .sec1 section {
+        width: 45%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .polar {
+        width: 510px;
+        margin-right: 50px;
+    }
+    .fiya {
+        width: 510px;
+        height: 300px
+    }
+    .lead {
+        float: left;
+        clear: both;
+        width: 500px;
+    }
+    .lead2 {
+        width: 510px;
+        float: right;
+        margin-right: 100px
+    }
+    #k {
+        clear: both
+    }

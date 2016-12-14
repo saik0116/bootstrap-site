@@ -1,0 +1,45 @@
+{
+    background-color: #D17334
+}
+
+img {
+    width: 100%;
+    height: 150px
+}
+
+a {
+    color: aliceblue;
+}
+
+form {
+    width: 500px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.maps {
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.navbar.navbar-light.bg-faded {
+    background-color: #E8501D;
+}
+
+.navbar-toggler.hidden-lg-up {
+    background-color: #DE3824;
+}
+
+.container-fluid {
+    background-color: #E85;
+}
+
+#formz {
+    font-size: 16px
+}
+
+#submit {
+    margin-left: 20px;
+    background-color: #e91;
+}
