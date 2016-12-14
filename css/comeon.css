@@ -55,12 +55,8 @@
     
     @media (min-width:870px) {
         img {
-            width: 60%;
         }
-        form {
-            width: 60%;
-            ;
-        }
+       
         .hmu {
             display: inherit;
             width: 35%;
