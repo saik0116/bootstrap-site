@@ -1,0 +1,12 @@
+.navbar.navbar-light.bg-faded {
+    background-color: #E8501D;
+}
+
+.navbar-toggler.hidden-lg-up {
+    background-color: #DE3824;
+}
+
+@media (min-width:576px) {
+    .card {
+    height: 400px;
+    } }
