@@ -7,6 +7,24 @@
     background-color: #E85;
 }
 
+.icon {
+    display: inline-block;
+}
+
+.iconic {
+    font-size: 19px;
+    color: blue;
+}
+
+.icon {
+    font-size: 18px;
+    margin-right: 4px;
+}
+
+footer {
+    background-color: #E8A885;
+}
+
 a {
     font-family: 'Playfair Display', 'Bitter', 'Droid Serif', 'Times New Roman', serif;
 }

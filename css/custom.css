@@ -11,6 +11,15 @@
  */
     /*! normalize.css v4.2.0 | MIT License | github.com/necolas/normalize.css */
     
+    .icon {
+        display: inline-block;
+    }
+    
+    .iconic {
+        font-size: 19px;
+        color: blue;
+    }
+    
     .container {
         position: static;
     }
