@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway');
 .navbar.navbar-light.bg-faded {
     background-color: #E8501D;
 }
 
 .navbar-toggler.hidden-lg-up {
     background-color: #E85;
+}
+
+a {
+    font-family: 'Playfair Display', 'Bitter', 'Droid Serif', 'Times New Roman', serif;
+}
+
+h4 {
+    font-family: 'Playfair Display', 'Bitter', 'Droid Serif', 'Times New Roman', serif;
+}
+
+p {
+    font-family: 'Raleway', 'Droid Sans', 'Arial', sans-serif;
 }
 
 img {
@@ -14,8 +27,8 @@ img {
     margin-top: 20px;
 }
 
-#spec {
-    font-style: 25px;
+#word {
+    margin-bottom: 10px;
 }
 
 @media (min-width:465px) {
@@ -38,7 +51,7 @@ body {
 
 .card {
     background-color: #E95;
-    box-shadow: 2px 2px 2px 4px black;
+    box-shadow: 2px 4px 7px 1px black;
 }
 
 p {

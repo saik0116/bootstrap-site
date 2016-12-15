@@ -1,3 +1,8 @@
+    @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway');
+    html,
+    body {
+        height: 100%;
+    }
     /*!
  * Bootstrap v4.0.0-alpha.5 (https://getbootstrap.com)
  * Copyright 2011-2016 The Bootstrap Authors
@@ -5,6 +10,24 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
     /*! normalize.css v4.2.0 | MIT License | github.com/necolas/normalize.css */
+    
+    .container {
+        position: static;
+    }
+    
+    .name {
+        color: black;
+        font-size: 17px;
+        position: relative;
+    }
+    
+    footer {
+        background-color: #E8A885;
+    }
+    
+    a {
+        font-family: 'Playfair Display', 'Bitter', 'Droid Serif', 'Times New Roman', serif;
+    }
     
     .btn.btn-outline-success {
         background-color: #00A3F5;
@@ -20,6 +43,10 @@
     .btn.btn-secondary {
         float: right;
         margin-top: -37.5px;
+    }
+    
+    p {
+        font-family: 'Raleway', 'Droid Sans', 'Arial', sans-serif;
     }
     
     html {
@@ -38,7 +65,7 @@
     }
     
     .bg-faded {
-        background-color: #E8501D
+        background-color: #E8501D;
     }
 }
 .navbar.navbar-dark.bg-primary {
@@ -76,6 +103,7 @@ a:hover {
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
+    font-family: 'Playfair Display', 'Bitter', 'Droid Serif', 'Times New Roman', serif;
 }
 .display-3 {
     margin-top: -30px;
@@ -100,37 +128,7 @@ h1 {
 .polar:hover {
     color: grey;
 }
-.bird {
-    height: 30px;
-    width: 30px;
-    margin-top: 5px;
-    float: right;
-    border: 2px solid #00A3F5;
-}
-.bird:hover {
-    border: 2px solid white;
-}
-.insta:hover {
-    border: 2px solid white;
-}
-.fb:hover {
-    border: 2px solid white;
-}
-.insta {
-    height: 30px;
-    width: 30px;
-    margin-top: 5px;
-    float: right;
-    margin-right: 5px;
-    border: 2px solid #00A3F5;
-}
-.fb {
-    height: 30px;
-    width: 30px;
-    margin-top: 5px;
-    float: right;
-    margin-right: 5px;
-    border: 2px solid #00A3F5;
+
 }
 .fiya {
     height: 200px;
@@ -151,58 +149,27 @@ h1 {
         width: 540px;
         max-width: 100%;
     }
-    
     .sec2 {
         display: none;
     }
-    
     .form-inline {
         width: 100%;
         float: left;
     }
-    
     .form-control {
         clear: both;
     }
-    
     .lead {
         width: 100%;
     }
-    
     .polar {
         width: 100%;
     }
-    
     .btn.btn-secondary {
         width: 60px;
     }
-    
-    .bird {
-        display: none;
-    }
-    
-    .insta {
-        display: none;
-    }
-    
-    .fb {
-        display: none;
-    }
-}
-
-}
-
 }
 @media (min-width: 461px)and (max-width: 574) {
-    .bird {
-        display: none;
-    }
-    .insta {
-        display: none;
-    }
-    .fb {
-        display: none;
-    }
     .display-3 {
         margin-top: -60px;
     }
@@ -211,6 +178,9 @@ h1 {
     }
 }
 @media (min-width: 575px)and (max-width:800px) {
+    #k {
+        clear: both;
+    }
     .jumbotron {
         width: 500px;
         margin: auto
@@ -232,15 +202,6 @@ h1 {
         float: left;
     }
 }
-.bird {
-    display: none;
-}
-.insta {
-    display: none;
-}
-.fb {
-    display: none;
-}
 .form-control {
     clear: both;
     width: 100%;
@@ -251,8 +212,11 @@ h1 {
     vertical-align: middle;
 }
 @media (min-width:801px) and (max-width: 1200px) {
+    #k {
+        clear: both
+    }
     .polar {
-        width:320px;
+        width: 320px;
     }
     .lead {
         width: 320px;
