@@ -13,7 +13,11 @@
 
 .iconic {
     font-size: 19px;
-    color: blue;
+    color: brown;
+}
+
+.iconic:hover {
+    color: aliceblue;
 }
 
 .icon {

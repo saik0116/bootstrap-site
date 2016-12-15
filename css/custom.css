@@ -17,7 +17,16 @@
     
     .iconic {
         font-size: 19px;
-        color: blue;
+        color: brown;
+    }
+    
+    .iconic:hover {
+        color: aliceblue;
+    }
+    
+    .icon {
+        font-size: 18px;
+        margin-right: 4px;
     }
     
     .container {
@@ -271,7 +280,7 @@ h1 {
     .lead2 {
         width: 510px;
         float: right;
-        margin-right: 100px
+        margin-right: 80px;
     }
     #k {
         clear: both
