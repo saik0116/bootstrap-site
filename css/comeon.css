@@ -1,105 +1,111 @@
-                    @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway');
-                a {
-                    color: aliceblue;
-                }
-                
-                a {
-                    font-family: 'Playfair Display', 'Bitter', 'Droid Serif', 'Times New Roman', serif;
-                }
-                
-                label {
-                    font-family: 'Playfair Display', 'Bitter', 'Droid Serif', 'Times New Roman', serif;
-                }
-                
-                .icon {
-                    display: inline-block;
-                }
-                
-                .iconic {
-                    font-size: 19px;
-                    color: blue;
-                }
-                
-                .icon {
-                    font-size: 18px;
-                    margin-right: 4px;
-                }
-                
-                footer {
-                    background-color: #E8A885;
-                }
-                
-                p {
-                    font-family: 'Raleway', 'Droid Sans', 'Arial', sans-serif;
-                }
-                
-                .hmu {
-                    display: none;
-                    margin-top: 30px
-                }
-                
-                form {
-                    width: 500px;
-                    margin-left: 20px;
-                    margin-bottom: 40px;
-                    margin-top: 15px;
-                }
-                
-                img {
-                    margin-top: 30px;
-                    margin-left: 20px;
-                    width: 500px;
-                    height: 400px;
-                }
-                
-                .nav-item:hover {
-                    margin-bottom: 2px;
-                    background-color: orange;
-                    transition: 1s;
-                }
-                
-                .nav-item {
-                    border: 2px solid transparent;
-                    margin-bottom: 2px;
-                }
-                
-                .navbar.navbar-light.bg-faded {
-                    background-color: #E8501D;
-                }
-                
-                .navbar-toggler.hidden-lg-up {
-                    background-color: #DE3824;
-                }
-                
-                .container-fluid {
-                    background-color: #E85;
-                }
-                
-                #formz {
-                    font-size: 16px
-                }
-                
-                #submit {
-                    margin-left: 20px;
-                    background-color: #e91;
-                }
-                
-                @media (min-width:870px) {
-                    img {}
-                    .hmu {
-                        display: inherit;
-                        width: 35%;
-                        margin-right: 30;
-                        float: right;
-                        padding-left: 0px;
+                        @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway');
+                    a {
+                        color: aliceblue;
                     }
+                    
+                    a {
+                        font-family: 'Playfair Display', 'Bitter', 'Droid Serif', 'Times New Roman', serif;
+                    }
+                    
+                    label {
+                        font-family: 'Playfair Display', 'Bitter', 'Droid Serif', 'Times New Roman', serif;
+                    }
+                    
+                    .icon {
+                        display: inline-block;
+                    }
+                    
+                    .iconic {
+                        font-size: 19px;
+                        color: blue;
+                    }
+                    
+                    .icon {
+                        font-size: 18px;
+                        margin-right: 4px;
+                    }
+                    
+                    footer {
+                        background-color: #E8A885;
+                    }
+                    
+                    p {
+                        font-family: 'Raleway', 'Droid Sans', 'Arial', sans-serif;
+                    }
+                    
+                    .hmu {
+                        display: none;
+                        margin-top: 30px
+                    }
+                    
+                    form {
+                        width: 500px;
+                        margin-left: 20px;
+                        margin-bottom: 40px;
+                        margin-top: 15px;
+                    }
+                    
+                    img {
+                        margin-top: 30px;
+                        margin-left: 20px;
+                        width: 500px;
+                        height: 400px;
+                    }
+                    
                     .nav-item:hover {
                         margin-bottom: 2px;
                         background-color: orange;
                         transition: 1s;
                     }
+                    
                     .nav-item {
                         border: 2px solid transparent;
                         margin-bottom: 2px;
                     }
-                    @media
+                    
+                    .navbar.navbar-light.bg-faded {
+                        background-color: #E8501D;
+                    }
+                    
+                    .navbar-toggler.hidden-lg-up {
+                        background-color: #DE3824;
+                    }
+                    
+                    .container-fluid {
+                        background-color: #E85;
+                    }
+                    
+                    #formz {
+                        font-size: 16px
+                    }
+                    
+                    #submit {
+                        margin-left: 20px;
+                        background-color: #e91;
+                    }
+                    
+                    @media (max-width:580px) {
+                        .map {
+                            width: 100%;
+                        }
+                    }
+                    
+                    @media (min-width:870px) {
+                        img {}
+                        .hmu {
+                            display: inherit;
+                            width: 35%;
+                            margin-right: 30;
+                            float: right;
+                            padding-left: 0px;
+                        }
+                        .nav-item:hover {
+                            margin-bottom: 2px;
+                            background-color: orange;
+                            transition: 1s;
+                        }
+                        .nav-item {
+                            border: 2px solid transparent;
+                            margin-bottom: 2px;
+                        }
+                        @media
